@@ -1,0 +1,1167 @@
+
+
+Wed May  1 13:28:07 2024
+<<ERROR polling>>
+Traceback (most recent call last):
+  File "C:\Users\AdmiN\Desktop\УПИ\Диплом\TelegramBot\pythonProject\main2.py", line 40, in telebot_polling1
+    bot.polling()
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 1043, in polling
+    self.__threaded_polling(non_stop=non_stop, interval=interval, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 1118, in __threaded_polling
+    raise e
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 1074, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\util.py", line 147, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\util.py", line 90, in run
+    task(*args, **kwargs)
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 6801, in _run_middlewares_and_handler
+    result = handler['function'](message)
+  File "C:\Users\AdmiN\Desktop\УПИ\Диплом\TelegramBot\pythonProject\main2.py", line 34, in callback_message
+    callback_handler.callback_message(callback, bot)
+  File "C:\Users\AdmiN\Desktop\УПИ\Диплом\TelegramBot\pythonProject\handlers\callback_handler.py", line 13, in callback_message
+    if(db_manager.check_user(callback.from_user.id)[0] == null):
+  File "C:\Users\AdmiN\Desktop\УПИ\Диплом\TelegramBot\pythonProject\db_manager.py", line 10, in check_user
+    c.execute(f"select * from Пользователь where Username = {tg_id}")
+NameError: name 'c' is not defined
+
+<<ERROR polling>>
+
+Wed May  1 13:29:28 2024
+<<ERROR polling>>
+Traceback (most recent call last):
+  File "C:\Users\AdmiN\Desktop\УПИ\Диплом\TelegramBot\pythonProject\main2.py", line 40, in telebot_polling1
+    bot.polling()
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 1043, in polling
+    self.__threaded_polling(non_stop=non_stop, interval=interval, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 1118, in __threaded_polling
+    raise e
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 1074, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\util.py", line 147, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\util.py", line 90, in run
+    task(*args, **kwargs)
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 6801, in _run_middlewares_and_handler
+    result = handler['function'](message)
+  File "C:\Users\AdmiN\Desktop\УПИ\Диплом\TelegramBot\pythonProject\main2.py", line 34, in callback_message
+    callback_handler.callback_message(callback, bot)
+  File "C:\Users\AdmiN\Desktop\УПИ\Диплом\TelegramBot\pythonProject\handlers\callback_handler.py", line 13, in callback_message
+    if(db_manager.check_user(callback.from_user.id)[0] == null):
+  File "C:\Users\AdmiN\Desktop\УПИ\Диплом\TelegramBot\pythonProject\db_manager.py", line 10, in check_user
+    cur.execute(f"select * from Пользователь where Username = {tg_id}")
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 8816 and this is thread id 1124.
+
+<<ERROR polling>>
+
+Wed May  1 13:31:40 2024
+<<ERROR polling>>
+Traceback (most recent call last):
+  File "C:\Users\AdmiN\Desktop\УПИ\Диплом\TelegramBot\pythonProject\main2.py", line 40, in telebot_polling1
+    bot.polling()
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 1043, in polling
+    self.__threaded_polling(non_stop=non_stop, interval=interval, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 1118, in __threaded_polling
+    raise e
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 1074, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\util.py", line 147, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\util.py", line 90, in run
+    task(*args, **kwargs)
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 6801, in _run_middlewares_and_handler
+    result = handler['function'](message)
+  File "C:\Users\AdmiN\Desktop\УПИ\Диплом\TelegramBot\pythonProject\main2.py", line 34, in callback_message
+    callback_handler.callback_message(callback, bot)
+  File "C:\Users\AdmiN\Desktop\УПИ\Диплом\TelegramBot\pythonProject\handlers\callback_handler.py", line 13, in callback_message
+    if(db_manager.check_user(callback.from_user.id)[0] == null):
+  File "C:\Users\AdmiN\Desktop\УПИ\Диплом\TelegramBot\pythonProject\db_manager.py", line 10, in check_user
+    cur.execute(f"select * from Пользователь where Username = {tg_id}")
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 21756 and this is thread id 8248.
+
+<<ERROR polling>>
+
+Wed May  1 13:33:58 2024
+<<ERROR polling>>
+Traceback (most recent call last):
+  File "C:\Users\AdmiN\Desktop\УПИ\Диплом\TelegramBot\pythonProject\main2.py", line 40, in telebot_polling1
+    bot.polling()
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 1043, in polling
+    self.__threaded_polling(non_stop=non_stop, interval=interval, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 1118, in __threaded_polling
+    raise e
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 1074, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\util.py", line 147, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\util.py", line 90, in run
+    task(*args, **kwargs)
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 6801, in _run_middlewares_and_handler
+    result = handler['function'](message)
+  File "C:\Users\AdmiN\Desktop\УПИ\Диплом\TelegramBot\pythonProject\main2.py", line 34, in callback_message
+    callback_handler.callback_message(callback, bot)
+  File "C:\Users\AdmiN\Desktop\УПИ\Диплом\TelegramBot\pythonProject\handlers\callback_handler.py", line 13, in callback_message
+    if(db_manager.check_user(callback.from_user.id)[0] == null):
+IndexError: list index out of range
+
+<<ERROR polling>>
+
+Wed May  1 13:34:08 2024
+<<ERROR polling>>
+Traceback (most recent call last):
+  File "C:\Users\AdmiN\Desktop\УПИ\Диплом\TelegramBot\pythonProject\main2.py", line 40, in telebot_polling1
+    bot.polling()
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 1043, in polling
+    self.__threaded_polling(non_stop=non_stop, interval=interval, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 1118, in __threaded_polling
+    raise e
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 1074, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\util.py", line 147, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\util.py", line 90, in run
+    task(*args, **kwargs)
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 6801, in _run_middlewares_and_handler
+    result = handler['function'](message)
+  File "C:\Users\AdmiN\Desktop\УПИ\Диплом\TelegramBot\pythonProject\main2.py", line 34, in callback_message
+    callback_handler.callback_message(callback, bot)
+  File "C:\Users\AdmiN\Desktop\УПИ\Диплом\TelegramBot\pythonProject\handlers\callback_handler.py", line 13, in callback_message
+    if(db_manager.check_user(callback.from_user.id)[0] == null):
+IndexError: list index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\AdmiN\Desktop\УПИ\Диплом\TelegramBot\pythonProject\main2.py", line 40, in telebot_polling1
+    bot.polling()
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 1043, in polling
+    self.__threaded_polling(non_stop=non_stop, interval=interval, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 1118, in __threaded_polling
+    raise e
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 1074, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\util.py", line 147, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\util.py", line 90, in run
+    task(*args, **kwargs)
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 6801, in _run_middlewares_and_handler
+    result = handler['function'](message)
+  File "C:\Users\AdmiN\Desktop\УПИ\Диплом\TelegramBot\pythonProject\main2.py", line 34, in callback_message
+    callback_handler.callback_message(callback, bot)
+  File "C:\Users\AdmiN\Desktop\УПИ\Диплом\TelegramBot\pythonProject\handlers\callback_handler.py", line 13, in callback_message
+    if(db_manager.check_user(callback.from_user.id)[0] == null):
+IndexError: list index out of range
+
+<<ERROR polling>>
+
+Wed May  1 14:04:15 2024
+<<ERROR polling>>
+Traceback (most recent call last):
+  File "C:\Users\AdmiN\Desktop\УПИ\Диплом\TelegramBot\pythonProject\main2.py", line 40, in telebot_polling1
+    bot.polling()
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 1043, in polling
+    self.__threaded_polling(non_stop=non_stop, interval=interval, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 1118, in __threaded_polling
+    raise e
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 1074, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\util.py", line 147, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\util.py", line 90, in run
+    task(*args, **kwargs)
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 6801, in _run_middlewares_and_handler
+    result = handler['function'](message)
+  File "C:\Users\AdmiN\Desktop\УПИ\Диплом\TelegramBot\pythonProject\main2.py", line 34, in callback_message
+    callback_handler.callback_message(callback, bot)
+  File "C:\Users\AdmiN\Desktop\УПИ\Диплом\TelegramBot\pythonProject\handlers\callback_handler.py", line 13, in callback_message
+    if(len(db_manager.check_user(callback.from_user.id))==0):
+AttributeError: module 'pythonProject.db_manager' has no attribute 'check_user'
+
+<<ERROR polling>>
+
+Wed May  1 14:05:12 2024
+<<ERROR polling>>
+Traceback (most recent call last):
+  File "C:/Users/AdmiN/Desktop/УПИ/Диплом/TelegramBot/pythonProject/main2.py", line 40, in telebot_polling1
+    bot.polling()
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 1043, in polling
+    self.__threaded_polling(non_stop=non_stop, interval=interval, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 1118, in __threaded_polling
+    raise e
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 1074, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\util.py", line 147, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\util.py", line 90, in run
+    task(*args, **kwargs)
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 6801, in _run_middlewares_and_handler
+    result = handler['function'](message)
+  File "C:/Users/AdmiN/Desktop/УПИ/Диплом/TelegramBot/pythonProject/main2.py", line 34, in callback_message
+    callback_handler.callback_message(callback, bot)
+  File "C:\Users\AdmiN\Desktop\УПИ\Диплом\TelegramBot\pythonProject\handlers\callback_handler.py", line 13, in callback_message
+    if(len(db_manager.check_user(callback.from_user.id))==0):
+AttributeError: module 'pythonProject.db_manager' has no attribute 'check_user'
+
+<<ERROR polling>>
+
+Wed May  1 14:05:25 2024
+<<ERROR polling>>
+Traceback (most recent call last):
+  File "C:/Users/AdmiN/Desktop/УПИ/Диплом/TelegramBot/pythonProject/main2.py", line 40, in telebot_polling1
+    bot.polling()
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 1043, in polling
+    self.__threaded_polling(non_stop=non_stop, interval=interval, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 1118, in __threaded_polling
+    raise e
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 1074, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\util.py", line 147, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\util.py", line 90, in run
+    task(*args, **kwargs)
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 6801, in _run_middlewares_and_handler
+    result = handler['function'](message)
+  File "C:/Users/AdmiN/Desktop/УПИ/Диплом/TelegramBot/pythonProject/main2.py", line 34, in callback_message
+    callback_handler.callback_message(callback, bot)
+  File "C:\Users\AdmiN\Desktop\УПИ\Диплом\TelegramBot\pythonProject\handlers\callback_handler.py", line 13, in callback_message
+    if(len(db_manager.check_user(callback.from_user.id))==0):
+AttributeError: module 'pythonProject.db_manager' has no attribute 'check_user'
+
+<<ERROR polling>>
+
+Wed May  1 14:06:27 2024
+<<ERROR polling>>
+Traceback (most recent call last):
+  File "C:/Users/AdmiN/Desktop/УПИ/Диплом/TelegramBot/pythonProject/main2.py", line 40, in telebot_polling1
+    bot.polling()
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 1043, in polling
+    self.__threaded_polling(non_stop=non_stop, interval=interval, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 1118, in __threaded_polling
+    raise e
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 1074, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\util.py", line 147, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\util.py", line 90, in run
+    task(*args, **kwargs)
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 6801, in _run_middlewares_and_handler
+    result = handler['function'](message)
+  File "C:/Users/AdmiN/Desktop/УПИ/Диплом/TelegramBot/pythonProject/main2.py", line 34, in callback_message
+    callback_handler.callback_message(callback, bot)
+  File "C:\Users\AdmiN\Desktop\УПИ\Диплом\TelegramBot\pythonProject\handlers\callback_handler.py", line 13, in callback_message
+    tmp_len = len(db_manager.check_user(callback.from_user.id))
+AttributeError: module 'pythonProject.db_manager' has no attribute 'check_user'
+
+<<ERROR polling>>
+
+Wed May  1 14:06:42 2024
+<<ERROR polling>>
+Traceback (most recent call last):
+  File "C:\Users\AdmiN\Desktop\УПИ\Диплом\TelegramBot\pythonProject\main2.py", line 40, in telebot_polling1
+    bot.polling()
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 1043, in polling
+    self.__threaded_polling(non_stop=non_stop, interval=interval, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 1118, in __threaded_polling
+    raise e
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 1074, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\util.py", line 147, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\util.py", line 90, in run
+    task(*args, **kwargs)
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 6801, in _run_middlewares_and_handler
+    result = handler['function'](message)
+  File "C:\Users\AdmiN\Desktop\УПИ\Диплом\TelegramBot\pythonProject\main2.py", line 34, in callback_message
+    callback_handler.callback_message(callback, bot)
+  File "C:\Users\AdmiN\Desktop\УПИ\Диплом\TelegramBot\pythonProject\handlers\callback_handler.py", line 13, in callback_message
+    tmp_len = len(db_manager.check_user(callback.from_user.id))
+AttributeError: module 'pythonProject.db_manager' has no attribute 'check_user'
+
+<<ERROR polling>>
+
+Wed May  1 14:07:07 2024
+<<ERROR polling>>
+Traceback (most recent call last):
+  File "C:/Users/AdmiN/Desktop/УПИ/Диплом/TelegramBot/pythonProject/main2.py", line 40, in telebot_polling1
+    bot.polling()
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 1043, in polling
+    self.__threaded_polling(non_stop=non_stop, interval=interval, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 1118, in __threaded_polling
+    raise e
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 1074, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\util.py", line 147, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\util.py", line 90, in run
+    task(*args, **kwargs)
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 6801, in _run_middlewares_and_handler
+    result = handler['function'](message)
+  File "C:/Users/AdmiN/Desktop/УПИ/Диплом/TelegramBot/pythonProject/main2.py", line 34, in callback_message
+    callback_handler.callback_message(callback, bot)
+  File "C:\Users\AdmiN\Desktop\УПИ\Диплом\TelegramBot\pythonProject\handlers\callback_handler.py", line 13, in callback_message
+    tmp_len = len(db_manager.check_user(callback.from_user.id))
+AttributeError: module 'pythonProject.db_manager' has no attribute 'check_user'
+
+<<ERROR polling>>
+
+Wed May  1 14:07:55 2024
+<<ERROR polling>>
+Traceback (most recent call last):
+  File "C:/Users/AdmiN/Desktop/УПИ/Диплом/TelegramBot/pythonProject/main2.py", line 40, in telebot_polling1
+    bot.polling()
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 1043, in polling
+    self.__threaded_polling(non_stop=non_stop, interval=interval, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 1118, in __threaded_polling
+    raise e
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 1074, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\util.py", line 147, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\util.py", line 90, in run
+    task(*args, **kwargs)
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 6801, in _run_middlewares_and_handler
+    result = handler['function'](message)
+  File "C:/Users/AdmiN/Desktop/УПИ/Диплом/TelegramBot/pythonProject/main2.py", line 34, in callback_message
+    callback_handler.callback_message(callback, bot)
+  File "C:\Users\AdmiN\Desktop\УПИ\Диплом\TelegramBot\pythonProject\handlers\callback_handler.py", line 13, in callback_message
+    tmp_len = len(db_manager.check_user(callback.from_user.id))
+AttributeError: module 'pythonProject.db_manager' has no attribute 'check_user'
+
+<<ERROR polling>>
+
+Wed May  1 14:08:18 2024
+<<ERROR polling>>
+Traceback (most recent call last):
+  File "C:/Users/AdmiN/Desktop/УПИ/Диплом/TelegramBot/pythonProject/main2.py", line 40, in telebot_polling1
+    bot.polling()
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 1043, in polling
+    self.__threaded_polling(non_stop=non_stop, interval=interval, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 1118, in __threaded_polling
+    raise e
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 1074, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\util.py", line 147, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\util.py", line 90, in run
+    task(*args, **kwargs)
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 6801, in _run_middlewares_and_handler
+    result = handler['function'](message)
+  File "C:/Users/AdmiN/Desktop/УПИ/Диплом/TelegramBot/pythonProject/main2.py", line 34, in callback_message
+    callback_handler.callback_message(callback, bot)
+  File "C:\Users\AdmiN\Desktop\УПИ\Диплом\TelegramBot\pythonProject\handlers\callback_handler.py", line 13, in callback_message
+    tmp_len = len(db_manager.check_user(callback.from_user.id))
+AttributeError: module 'pythonProject.db_manager' has no attribute 'check_user'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:/Users/AdmiN/Desktop/УПИ/Диплом/TelegramBot/pythonProject/main2.py", line 40, in telebot_polling1
+    bot.polling()
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 1043, in polling
+    self.__threaded_polling(non_stop=non_stop, interval=interval, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 1118, in __threaded_polling
+    raise e
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 1074, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\util.py", line 147, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\util.py", line 90, in run
+    task(*args, **kwargs)
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 6801, in _run_middlewares_and_handler
+    result = handler['function'](message)
+  File "C:/Users/AdmiN/Desktop/УПИ/Диплом/TelegramBot/pythonProject/main2.py", line 34, in callback_message
+    callback_handler.callback_message(callback, bot)
+  File "C:\Users\AdmiN\Desktop\УПИ\Диплом\TelegramBot\pythonProject\handlers\callback_handler.py", line 13, in callback_message
+    tmp_len = len(db_manager.check_user(callback.from_user.id))
+AttributeError: module 'pythonProject.db_manager' has no attribute 'check_user'
+
+<<ERROR polling>>
+
+Wed May  1 14:10:02 2024
+<<ERROR polling>>
+Traceback (most recent call last):
+  File "C:\Users\AdmiN\Desktop\УПИ\Диплом\TelegramBot\pythonProject\main2.py", line 40, in telebot_polling1
+    bot.polling()
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 1043, in polling
+    self.__threaded_polling(non_stop=non_stop, interval=interval, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 1118, in __threaded_polling
+    raise e
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 1074, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\util.py", line 147, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\util.py", line 90, in run
+    task(*args, **kwargs)
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 6801, in _run_middlewares_and_handler
+    result = handler['function'](message)
+  File "C:\Users\AdmiN\Desktop\УПИ\Диплом\TelegramBot\pythonProject\main2.py", line 34, in callback_message
+    callback_handler.callback_message(callback, bot)
+  File "C:\Users\AdmiN\Desktop\УПИ\Диплом\TelegramBot\pythonProject\handlers\callback_handler.py", line 43, in callback_message
+    db_manager.insert_user_patient(Client.tmpClient.tg_id, Client.tmpClient.name, Client.tmpClient.sex, Client.tmpClient.birthday, Client.tmpClient.phone)
+  File "C:\Users\AdmiN\Desktop\УПИ\Диплом\TelegramBot\pythonProject\db_manager.py", line 32, in insert_user_patient
+    cur.execute(f"insert into Пациент(ФИО, Пол, Дата_рождения, Телефон) values ({name, tmp_sex, birthday, phone})")
+sqlite3.OperationalError: 1 values for 4 columns
+
+<<ERROR polling>>
+
+Wed May  1 14:12:45 2024
+<<ERROR polling>>
+Traceback (most recent call last):
+  File "C:/Users/AdmiN/Desktop/УПИ/Диплом/TelegramBot/pythonProject/main2.py", line 40, in telebot_polling1
+    bot.polling()
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 1043, in polling
+    self.__threaded_polling(non_stop=non_stop, interval=interval, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 1118, in __threaded_polling
+    raise e
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 1074, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\util.py", line 147, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\util.py", line 90, in run
+    task(*args, **kwargs)
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 6801, in _run_middlewares_and_handler
+    result = handler['function'](message)
+  File "C:/Users/AdmiN/Desktop/УПИ/Диплом/TelegramBot/pythonProject/main2.py", line 34, in callback_message
+    callback_handler.callback_message(callback, bot)
+  File "C:\Users\AdmiN\Desktop\УПИ\Диплом\TelegramBot\pythonProject\handlers\callback_handler.py", line 43, in callback_message
+    db_manager.insert_user_patient(Client.tmpClient.tg_id, Client.tmpClient.name, Client.tmpClient.sex, Client.tmpClient.birthday, Client.tmpClient.phone)
+  File "C:\Users\AdmiN\Desktop\УПИ\Диплом\TelegramBot\pythonProject\db_manager.py", line 31, in insert_user_patient
+    fui = find_user_id(tg_id)[0]
+IndexError: list index out of range
+
+<<ERROR polling>>
+
+Wed May  1 14:12:55 2024
+<<ERROR polling>>
+Traceback (most recent call last):
+  File "C:/Users/AdmiN/Desktop/УПИ/Диплом/TelegramBot/pythonProject/main2.py", line 40, in telebot_polling1
+    bot.polling()
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 1043, in polling
+    self.__threaded_polling(non_stop=non_stop, interval=interval, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 1118, in __threaded_polling
+    raise e
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 1074, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\util.py", line 147, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\util.py", line 90, in run
+    task(*args, **kwargs)
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 6801, in _run_middlewares_and_handler
+    result = handler['function'](message)
+  File "C:/Users/AdmiN/Desktop/УПИ/Диплом/TelegramBot/pythonProject/main2.py", line 34, in callback_message
+    callback_handler.callback_message(callback, bot)
+  File "C:\Users\AdmiN\Desktop\УПИ\Диплом\TelegramBot\pythonProject\handlers\callback_handler.py", line 43, in callback_message
+    db_manager.insert_user_patient(Client.tmpClient.tg_id, Client.tmpClient.name, Client.tmpClient.sex, Client.tmpClient.birthday, Client.tmpClient.phone)
+  File "C:\Users\AdmiN\Desktop\УПИ\Диплом\TelegramBot\pythonProject\db_manager.py", line 31, in insert_user_patient
+    fui = find_user_id(tg_id)[0]
+IndexError: list index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:/Users/AdmiN/Desktop/УПИ/Диплом/TelegramBot/pythonProject/main2.py", line 40, in telebot_polling1
+    bot.polling()
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 1043, in polling
+    self.__threaded_polling(non_stop=non_stop, interval=interval, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 1118, in __threaded_polling
+    raise e
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 1074, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\util.py", line 147, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\util.py", line 90, in run
+    task(*args, **kwargs)
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 6801, in _run_middlewares_and_handler
+    result = handler['function'](message)
+  File "C:/Users/AdmiN/Desktop/УПИ/Диплом/TelegramBot/pythonProject/main2.py", line 34, in callback_message
+    callback_handler.callback_message(callback, bot)
+  File "C:\Users\AdmiN\Desktop\УПИ\Диплом\TelegramBot\pythonProject\handlers\callback_handler.py", line 43, in callback_message
+    db_manager.insert_user_patient(Client.tmpClient.tg_id, Client.tmpClient.name, Client.tmpClient.sex, Client.tmpClient.birthday, Client.tmpClient.phone)
+  File "C:\Users\AdmiN\Desktop\УПИ\Диплом\TelegramBot\pythonProject\db_manager.py", line 31, in insert_user_patient
+    fui = find_user_id(tg_id)[0]
+IndexError: list index out of range
+
+<<ERROR polling>>
+
+Wed May  1 14:14:12 2024
+<<ERROR polling>>
+Traceback (most recent call last):
+  File "C:/Users/AdmiN/Desktop/УПИ/Диплом/TelegramBot/pythonProject/main2.py", line 40, in telebot_polling1
+    bot.polling()
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 1043, in polling
+    self.__threaded_polling(non_stop=non_stop, interval=interval, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 1118, in __threaded_polling
+    raise e
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 1074, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\util.py", line 147, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\util.py", line 90, in run
+    task(*args, **kwargs)
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 6801, in _run_middlewares_and_handler
+    result = handler['function'](message)
+  File "C:/Users/AdmiN/Desktop/УПИ/Диплом/TelegramBot/pythonProject/main2.py", line 34, in callback_message
+    callback_handler.callback_message(callback, bot)
+  File "C:\Users\AdmiN\Desktop\УПИ\Диплом\TelegramBot\pythonProject\handlers\callback_handler.py", line 43, in callback_message
+    db_manager.insert_user_patient(Client.tmpClient.tg_id, Client.tmpClient.name, Client.tmpClient.sex, Client.tmpClient.birthday, Client.tmpClient.phone)
+  File "C:\Users\AdmiN\Desktop\УПИ\Диплом\TelegramBot\pythonProject\db_manager.py", line 31, in insert_user_patient
+    fui = find_user_id(tg_id)[0]
+IndexError: list index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:/Users/AdmiN/Desktop/УПИ/Диплом/TelegramBot/pythonProject/main2.py", line 40, in telebot_polling1
+    bot.polling()
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 1043, in polling
+    self.__threaded_polling(non_stop=non_stop, interval=interval, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 1118, in __threaded_polling
+    raise e
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 1074, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\util.py", line 147, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\util.py", line 90, in run
+    task(*args, **kwargs)
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 6801, in _run_middlewares_and_handler
+    result = handler['function'](message)
+  File "C:/Users/AdmiN/Desktop/УПИ/Диплом/TelegramBot/pythonProject/main2.py", line 34, in callback_message
+    callback_handler.callback_message(callback, bot)
+  File "C:\Users\AdmiN\Desktop\УПИ\Диплом\TelegramBot\pythonProject\handlers\callback_handler.py", line 43, in callback_message
+    db_manager.insert_user_patient(Client.tmpClient.tg_id, Client.tmpClient.name, Client.tmpClient.sex, Client.tmpClient.birthday, Client.tmpClient.phone)
+  File "C:\Users\AdmiN\Desktop\УПИ\Диплом\TelegramBot\pythonProject\db_manager.py", line 31, in insert_user_patient
+    fui = find_user_id(tg_id)[0]
+IndexError: list index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:/Users/AdmiN/Desktop/УПИ/Диплом/TelegramBot/pythonProject/main2.py", line 40, in telebot_polling1
+    bot.polling()
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 1043, in polling
+    self.__threaded_polling(non_stop=non_stop, interval=interval, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 1118, in __threaded_polling
+    raise e
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 1074, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\util.py", line 147, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\util.py", line 90, in run
+    task(*args, **kwargs)
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 6801, in _run_middlewares_and_handler
+    result = handler['function'](message)
+  File "C:/Users/AdmiN/Desktop/УПИ/Диплом/TelegramBot/pythonProject/main2.py", line 34, in callback_message
+    callback_handler.callback_message(callback, bot)
+  File "C:\Users\AdmiN\Desktop\УПИ\Диплом\TelegramBot\pythonProject\handlers\callback_handler.py", line 43, in callback_message
+    db_manager.insert_user_patient(Client.tmpClient.tg_id, Client.tmpClient.name, Client.tmpClient.sex, Client.tmpClient.birthday, Client.tmpClient.phone)
+  File "C:\Users\AdmiN\Desktop\УПИ\Диплом\TelegramBot\pythonProject\db_manager.py", line 31, in insert_user_patient
+    fui = find_user_id(tg_id)[0]
+IndexError: list index out of range
+
+<<ERROR polling>>
+
+Wed May  1 14:18:32 2024
+<<ERROR polling>>
+Traceback (most recent call last):
+  File "C:/Users/AdmiN/Desktop/УПИ/Диплом/TelegramBot/pythonProject/main2.py", line 40, in telebot_polling1
+    bot.polling()
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 1043, in polling
+    self.__threaded_polling(non_stop=non_stop, interval=interval, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 1118, in __threaded_polling
+    raise e
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 1074, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\util.py", line 147, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\util.py", line 90, in run
+    task(*args, **kwargs)
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 6801, in _run_middlewares_and_handler
+    result = handler['function'](message)
+  File "C:/Users/AdmiN/Desktop/УПИ/Диплом/TelegramBot/pythonProject/main2.py", line 34, in callback_message
+    callback_handler.callback_message(callback, bot)
+  File "C:\Users\AdmiN\Desktop\УПИ\Диплом\TelegramBot\pythonProject\handlers\callback_handler.py", line 43, in callback_message
+    db_manager.insert_user_patient(Client.tmpClient.tg_id, Client.tmpClient.name, Client.tmpClient.sex, Client.tmpClient.birthday, Client.tmpClient.phone)
+  File "C:\Users\AdmiN\Desktop\УПИ\Диплом\TelegramBot\pythonProject\db_manager.py", line 32, in insert_user_patient
+    cur.execute(f"insert into Пациент(ФИО, Пол, Дата_рождения, Телефон) values ({name, tmp_sex, birthday, phone})")
+sqlite3.OperationalError: 1 values for 4 columns
+
+<<ERROR polling>>
+
+Wed May  1 14:21:12 2024
+<<ERROR polling>>
+Traceback (most recent call last):
+  File "C:/Users/AdmiN/Desktop/УПИ/Диплом/TelegramBot/pythonProject/main2.py", line 40, in telebot_polling1
+    bot.polling()
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 1043, in polling
+    self.__threaded_polling(non_stop=non_stop, interval=interval, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 1118, in __threaded_polling
+    raise e
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 1074, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\util.py", line 147, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\util.py", line 90, in run
+    task(*args, **kwargs)
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 6801, in _run_middlewares_and_handler
+    result = handler['function'](message)
+  File "C:/Users/AdmiN/Desktop/УПИ/Диплом/TelegramBot/pythonProject/main2.py", line 34, in callback_message
+    callback_handler.callback_message(callback, bot)
+  File "C:\Users\AdmiN\Desktop\УПИ\Диплом\TelegramBot\pythonProject\handlers\callback_handler.py", line 43, in callback_message
+    db_manager.insert_user_patient(Client.tmpClient.tg_id, Client.tmpClient.name, Client.tmpClient.sex, Client.tmpClient.birthday, Client.tmpClient.phone)
+  File "C:\Users\AdmiN\Desktop\УПИ\Диплом\TelegramBot\pythonProject\db_manager.py", line 32, in insert_user_patient
+    cur.execute(f"insert into Пациент(ФИО, Пол, Дата_рождения, Телефон) values ({name, tmp_sex, birthday, phone})")
+sqlite3.OperationalError: 1 values for 4 columns
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:/Users/AdmiN/Desktop/УПИ/Диплом/TelegramBot/pythonProject/main2.py", line 40, in telebot_polling1
+    bot.polling()
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 1043, in polling
+    self.__threaded_polling(non_stop=non_stop, interval=interval, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 1118, in __threaded_polling
+    raise e
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 1074, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\util.py", line 147, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\util.py", line 90, in run
+    task(*args, **kwargs)
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 6801, in _run_middlewares_and_handler
+    result = handler['function'](message)
+  File "C:/Users/AdmiN/Desktop/УПИ/Диплом/TelegramBot/pythonProject/main2.py", line 34, in callback_message
+    callback_handler.callback_message(callback, bot)
+  File "C:\Users\AdmiN\Desktop\УПИ\Диплом\TelegramBot\pythonProject\handlers\callback_handler.py", line 43, in callback_message
+    db_manager.insert_user_patient(Client.tmpClient.tg_id, Client.tmpClient.name, Client.tmpClient.sex, Client.tmpClient.birthday, Client.tmpClient.phone)
+  File "C:\Users\AdmiN\Desktop\УПИ\Диплом\TelegramBot\pythonProject\db_manager.py", line 31, in insert_user_patient
+    cur.execute(f"insert into Пользователь(Username) values ({tg_id})")
+sqlite3.OperationalError: database is locked
+
+<<ERROR polling>>
+
+Wed May  1 14:25:28 2024
+<<ERROR polling>>
+Traceback (most recent call last):
+  File "C:/Users/AdmiN/Desktop/УПИ/Диплом/TelegramBot/pythonProject/main2.py", line 40, in telebot_polling1
+    bot.polling()
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 1043, in polling
+    self.__threaded_polling(non_stop=non_stop, interval=interval, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 1118, in __threaded_polling
+    raise e
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 1074, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\util.py", line 147, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\util.py", line 90, in run
+    task(*args, **kwargs)
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 6801, in _run_middlewares_and_handler
+    result = handler['function'](message)
+  File "C:/Users/AdmiN/Desktop/УПИ/Диплом/TelegramBot/pythonProject/main2.py", line 34, in callback_message
+    callback_handler.callback_message(callback, bot)
+  File "C:\Users\AdmiN\Desktop\УПИ\Диплом\TelegramBot\pythonProject\handlers\callback_handler.py", line 43, in callback_message
+    db_manager.insert_user_patient(Client.tmpClient.tg_id, Client.tmpClient.name, Client.tmpClient.sex, Client.tmpClient.birthday, Client.tmpClient.phone)
+  File "C:\Users\AdmiN\Desktop\УПИ\Диплом\TelegramBot\pythonProject\db_manager.py", line 34, in insert_user_patient
+    fui = find_user_id(tg_id)[0]
+IndexError: list index out of range
+
+<<ERROR polling>>
+
+Wed May  1 14:27:37 2024
+<<ERROR polling>>
+Traceback (most recent call last):
+  File "C:/Users/AdmiN/Desktop/УПИ/Диплом/TelegramBot/pythonProject/main2.py", line 40, in telebot_polling1
+    bot.polling()
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 1043, in polling
+    self.__threaded_polling(non_stop=non_stop, interval=interval, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 1118, in __threaded_polling
+    raise e
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 1074, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\util.py", line 147, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\util.py", line 90, in run
+    task(*args, **kwargs)
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 6801, in _run_middlewares_and_handler
+    result = handler['function'](message)
+  File "C:/Users/AdmiN/Desktop/УПИ/Диплом/TelegramBot/pythonProject/main2.py", line 34, in callback_message
+    callback_handler.callback_message(callback, bot)
+  File "C:\Users\AdmiN\Desktop\УПИ\Диплом\TelegramBot\pythonProject\handlers\callback_handler.py", line 43, in callback_message
+    db_manager.insert_user_patient(Client.tmpClient.tg_id, Client.tmpClient.name, Client.tmpClient.sex, Client.tmpClient.birthday, Client.tmpClient.phone)
+  File "C:\Users\AdmiN\Desktop\УПИ\Диплом\TelegramBot\pythonProject\db_manager.py", line 34, in insert_user_patient
+    fui = find_user_id(tg_id)[0]
+IndexError: list index out of range
+
+<<ERROR polling>>
+
+Wed May  1 14:38:00 2024
+<<ERROR polling>>
+Traceback (most recent call last):
+  File "C:/Users/AdmiN/Desktop/УПИ/Диплом/TelegramBot/pythonProject/main2.py", line 40, in telebot_polling1
+    bot.polling()
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 1043, in polling
+    self.__threaded_polling(non_stop=non_stop, interval=interval, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 1118, in __threaded_polling
+    raise e
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 1074, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\util.py", line 147, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\util.py", line 90, in run
+    task(*args, **kwargs)
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 6801, in _run_middlewares_and_handler
+    result = handler['function'](message)
+  File "C:/Users/AdmiN/Desktop/УПИ/Диплом/TelegramBot/pythonProject/main2.py", line 34, in callback_message
+    callback_handler.callback_message(callback, bot)
+  File "C:\Users\AdmiN\Desktop\УПИ\Диплом\TelegramBot\pythonProject\handlers\callback_handler.py", line 43, in callback_message
+    db_manager.insert_user_patient(Client.tmpClient.tg_id, Client.tmpClient.name, Client.tmpClient.sex, Client.tmpClient.birthday, Client.tmpClient.phone)
+  File "C:\Users\AdmiN\Desktop\УПИ\Диплом\TelegramBot\pythonProject\db_manager.py", line 37, in insert_user_patient
+    fpi = find_patient_id(name, birthday)[0]
+  File "C:\Users\AdmiN\Desktop\УПИ\Диплом\TelegramBot\pythonProject\db_manager.py", line 18, in find_patient_id
+    cur.execute(f"select ID from Пациент where ФИО = {name} and Дата_рождения = {birthday}")
+sqlite3.OperationalError: no such column: А
+
+<<ERROR polling>>
+
+Wed May  1 14:40:53 2024
+<<ERROR polling>>
+Traceback (most recent call last):
+  File "C:\Users\AdmiN\Desktop\УПИ\Диплом\TelegramBot\pythonProject\main2.py", line 40, in telebot_polling1
+    bot.polling()
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 1043, in polling
+    self.__threaded_polling(non_stop=non_stop, interval=interval, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 1118, in __threaded_polling
+    raise e
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 1074, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\util.py", line 147, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\util.py", line 90, in run
+    task(*args, **kwargs)
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 6801, in _run_middlewares_and_handler
+    result = handler['function'](message)
+  File "C:\Users\AdmiN\Desktop\УПИ\Диплом\TelegramBot\pythonProject\main2.py", line 30, in bot_message
+    message_handler_text.bot_message(message, bot)
+NameError: name 'message_handler_text' is not defined
+
+<<ERROR polling>>
+
+Wed May  1 14:41:17 2024
+<<ERROR polling>>
+Traceback (most recent call last):
+  File "C:\Users\AdmiN\Desktop\УПИ\Диплом\TelegramBot\pythonProject\main2.py", line 40, in telebot_polling1
+    bot.polling()
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 1043, in polling
+    self.__threaded_polling(non_stop=non_stop, interval=interval, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 1118, in __threaded_polling
+    raise e
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 1074, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\util.py", line 147, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\util.py", line 90, in run
+    task(*args, **kwargs)
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 6801, in _run_middlewares_and_handler
+    result = handler['function'](message)
+  File "C:\Users\AdmiN\Desktop\УПИ\Диплом\TelegramBot\pythonProject\main2.py", line 30, in bot_message
+    message_handler_text.bot_message(message, bot)
+NameError: name 'message_handler_text' is not defined
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\AdmiN\Desktop\УПИ\Диплом\TelegramBot\pythonProject\main2.py", line 40, in telebot_polling1
+    bot.polling()
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 1043, in polling
+    self.__threaded_polling(non_stop=non_stop, interval=interval, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 1118, in __threaded_polling
+    raise e
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 1074, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\util.py", line 147, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\util.py", line 90, in run
+    task(*args, **kwargs)
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 6801, in _run_middlewares_and_handler
+    result = handler['function'](message)
+  File "C:\Users\AdmiN\Desktop\УПИ\Диплом\TelegramBot\pythonProject\main2.py", line 34, in callback_message
+    callback_handler.callback_message(callback, bot)
+  File "C:\Users\AdmiN\Desktop\УПИ\Диплом\TelegramBot\pythonProject\handlers\callback_handler.py", line 43, in callback_message
+    db_manager.insert_user_patient(Client.tmpClient.tg_id, Client.tmpClient.name, Client.tmpClient.sex, Client.tmpClient.birthday, Client.tmpClient.phone)
+  File "C:\Users\AdmiN\Desktop\УПИ\Диплом\TelegramBot\pythonProject\db_manager.py", line 37, in insert_user_patient
+    fpi = find_patient_id(name, birthday)[0]
+  File "C:\Users\AdmiN\Desktop\УПИ\Диплом\TelegramBot\pythonProject\db_manager.py", line 18, in find_patient_id
+    cur.execute(f"select ID from Пациент where ФИО = {name} and Дата_рождения = {birthday}")
+sqlite3.OperationalError: no such column: А
+
+<<ERROR polling>>
+
+Wed May  1 14:41:27 2024
+<<ERROR polling>>
+Traceback (most recent call last):
+  File "C:\Users\AdmiN\Desktop\УПИ\Диплом\TelegramBot\pythonProject\main2.py", line 40, in telebot_polling1
+    bot.polling()
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 1043, in polling
+    self.__threaded_polling(non_stop=non_stop, interval=interval, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 1118, in __threaded_polling
+    raise e
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 1074, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\util.py", line 147, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\util.py", line 90, in run
+    task(*args, **kwargs)
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 6801, in _run_middlewares_and_handler
+    result = handler['function'](message)
+  File "C:\Users\AdmiN\Desktop\УПИ\Диплом\TelegramBot\pythonProject\main2.py", line 30, in bot_message
+    message_handler_text.bot_message(message, bot)
+NameError: name 'message_handler_text' is not defined
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\AdmiN\Desktop\УПИ\Диплом\TelegramBot\pythonProject\main2.py", line 40, in telebot_polling1
+    bot.polling()
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 1043, in polling
+    self.__threaded_polling(non_stop=non_stop, interval=interval, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 1118, in __threaded_polling
+    raise e
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 1074, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\util.py", line 147, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\util.py", line 90, in run
+    task(*args, **kwargs)
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 6801, in _run_middlewares_and_handler
+    result = handler['function'](message)
+  File "C:\Users\AdmiN\Desktop\УПИ\Диплом\TelegramBot\pythonProject\main2.py", line 34, in callback_message
+    callback_handler.callback_message(callback, bot)
+  File "C:\Users\AdmiN\Desktop\УПИ\Диплом\TelegramBot\pythonProject\handlers\callback_handler.py", line 43, in callback_message
+    db_manager.insert_user_patient(Client.tmpClient.tg_id, Client.tmpClient.name, Client.tmpClient.sex, Client.tmpClient.birthday, Client.tmpClient.phone)
+  File "C:\Users\AdmiN\Desktop\УПИ\Диплом\TelegramBot\pythonProject\db_manager.py", line 37, in insert_user_patient
+    fpi = find_patient_id(name, birthday)[0]
+  File "C:\Users\AdmiN\Desktop\УПИ\Диплом\TelegramBot\pythonProject\db_manager.py", line 18, in find_patient_id
+    cur.execute(f"select ID from Пациент where ФИО = {name} and Дата_рождения = {birthday}")
+sqlite3.OperationalError: no such column: А
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\AdmiN\Desktop\УПИ\Диплом\TelegramBot\pythonProject\main2.py", line 40, in telebot_polling1
+    bot.polling()
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 1043, in polling
+    self.__threaded_polling(non_stop=non_stop, interval=interval, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 1118, in __threaded_polling
+    raise e
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 1074, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\util.py", line 147, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\util.py", line 90, in run
+    task(*args, **kwargs)
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 6801, in _run_middlewares_and_handler
+    result = handler['function'](message)
+  File "C:\Users\AdmiN\Desktop\УПИ\Диплом\TelegramBot\pythonProject\main2.py", line 34, in callback_message
+    callback_handler.callback_message(callback, bot)
+  File "C:\Users\AdmiN\Desktop\УПИ\Диплом\TelegramBot\pythonProject\handlers\callback_handler.py", line 43, in callback_message
+    db_manager.insert_user_patient(Client.tmpClient.tg_id, Client.tmpClient.name, Client.tmpClient.sex, Client.tmpClient.birthday, Client.tmpClient.phone)
+  File "C:\Users\AdmiN\Desktop\УПИ\Диплом\TelegramBot\pythonProject\db_manager.py", line 37, in insert_user_patient
+    fpi = find_patient_id(name, birthday)[0]
+  File "C:\Users\AdmiN\Desktop\УПИ\Диплом\TelegramBot\pythonProject\db_manager.py", line 18, in find_patient_id
+    cur.execute(f"select ID from Пациент where ФИО = {name} and Дата_рождения = {birthday}")
+sqlite3.OperationalError: no such column: А
+
+<<ERROR polling>>
+
+Wed May  1 14:41:32 2024
+<<ERROR polling>>
+Traceback (most recent call last):
+  File "C:/Users/AdmiN/Desktop/УПИ/Диплом/TelegramBot/pythonProject/main2.py", line 40, in telebot_polling1
+    bot.polling()
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 1043, in polling
+    self.__threaded_polling(non_stop=non_stop, interval=interval, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 1118, in __threaded_polling
+    raise e
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 1074, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\util.py", line 147, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\util.py", line 90, in run
+    task(*args, **kwargs)
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 6801, in _run_middlewares_and_handler
+    result = handler['function'](message)
+  File "C:/Users/AdmiN/Desktop/УПИ/Диплом/TelegramBot/pythonProject/main2.py", line 34, in callback_message
+    callback_handler.callback_message(callback, bot)
+  File "C:\Users\AdmiN\Desktop\УПИ\Диплом\TelegramBot\pythonProject\handlers\callback_handler.py", line 43, in callback_message
+    db_manager.insert_user_patient(Client.tmpClient.tg_id, Client.tmpClient.name, Client.tmpClient.sex, Client.tmpClient.birthday, Client.tmpClient.phone)
+AttributeError: 'Client' object has no attribute 'name'
+
+<<ERROR polling>>
+
+Wed May  1 14:41:42 2024
+<<ERROR polling>>
+Traceback (most recent call last):
+  File "C:/Users/AdmiN/Desktop/УПИ/Диплом/TelegramBot/pythonProject/main2.py", line 40, in telebot_polling1
+    bot.polling()
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 1043, in polling
+    self.__threaded_polling(non_stop=non_stop, interval=interval, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 1118, in __threaded_polling
+    raise e
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 1074, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\util.py", line 147, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\util.py", line 90, in run
+    task(*args, **kwargs)
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 6801, in _run_middlewares_and_handler
+    result = handler['function'](message)
+  File "C:/Users/AdmiN/Desktop/УПИ/Диплом/TelegramBot/pythonProject/main2.py", line 34, in callback_message
+    callback_handler.callback_message(callback, bot)
+  File "C:\Users\AdmiN\Desktop\УПИ\Диплом\TelegramBot\pythonProject\handlers\callback_handler.py", line 43, in callback_message
+    db_manager.insert_user_patient(Client.tmpClient.tg_id, Client.tmpClient.name, Client.tmpClient.sex, Client.tmpClient.birthday, Client.tmpClient.phone)
+AttributeError: 'Client' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:/Users/AdmiN/Desktop/УПИ/Диплом/TelegramBot/pythonProject/main2.py", line 40, in telebot_polling1
+    bot.polling()
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 1043, in polling
+    self.__threaded_polling(non_stop=non_stop, interval=interval, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 1118, in __threaded_polling
+    raise e
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 1074, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\util.py", line 147, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\util.py", line 90, in run
+    task(*args, **kwargs)
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 6801, in _run_middlewares_and_handler
+    result = handler['function'](message)
+  File "C:/Users/AdmiN/Desktop/УПИ/Диплом/TelegramBot/pythonProject/main2.py", line 34, in callback_message
+    callback_handler.callback_message(callback, bot)
+  File "C:\Users\AdmiN\Desktop\УПИ\Диплом\TelegramBot\pythonProject\handlers\callback_handler.py", line 43, in callback_message
+    db_manager.insert_user_patient(Client.tmpClient.tg_id, Client.tmpClient.name, Client.tmpClient.sex, Client.tmpClient.birthday, Client.tmpClient.phone)
+AttributeError: 'Client' object has no attribute 'name'
+
+<<ERROR polling>>
+
+Wed May  1 14:46:05 2024
+<<ERROR polling>>
+Traceback (most recent call last):
+  File "C:/Users/AdmiN/Desktop/УПИ/Диплом/TelegramBot/pythonProject/main2.py", line 40, in telebot_polling1
+    bot.polling()
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 1043, in polling
+    self.__threaded_polling(non_stop=non_stop, interval=interval, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 1118, in __threaded_polling
+    raise e
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 1074, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\util.py", line 147, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\util.py", line 90, in run
+    task(*args, **kwargs)
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 6801, in _run_middlewares_and_handler
+    result = handler['function'](message)
+  File "C:/Users/AdmiN/Desktop/УПИ/Диплом/TelegramBot/pythonProject/main2.py", line 34, in callback_message
+    callback_handler.callback_message(callback, bot)
+  File "C:\Users\AdmiN\Desktop\УПИ\Диплом\TelegramBot\pythonProject\handlers\callback_handler.py", line 43, in callback_message
+    db_manager.insert_user_patient(Client.tmpClient.tg_id, Client.tmpClient.name, Client.tmpClient.sex, Client.tmpClient.birthday, Client.tmpClient.phone)
+  File "C:\Users\AdmiN\Desktop\УПИ\Диплом\TelegramBot\pythonProject\db_manager.py", line 39, in insert_user_patient
+    cur.execute(f"insert into Пользователь_Пациент(ID_Пользователь, ID_Пациент) values ({fui}, {fpi})")
+sqlite3.OperationalError: near ")": syntax error
+
+<<ERROR polling>>
+
+Wed May  1 16:35:26 2024
+<<ERROR polling>>
+Traceback (most recent call last):
+  File "C:\Users\AdmiN\Desktop\УПИ\Диплом\TelegramBot\pythonProject\main2.py", line 40, in telebot_polling1
+    bot.polling()
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 1043, in polling
+    self.__threaded_polling(non_stop=non_stop, interval=interval, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 1118, in __threaded_polling
+    raise e
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 1074, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\util.py", line 147, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\util.py", line 90, in run
+    task(*args, **kwargs)
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 6801, in _run_middlewares_and_handler
+    result = handler['function'](message)
+  File "C:\Users\AdmiN\Desktop\УПИ\Диплом\TelegramBot\pythonProject\main2.py", line 34, in callback_message
+    callback_handler.callback_message(callback, bot)
+  File "C:\Users\AdmiN\Desktop\УПИ\Диплом\TelegramBot\pythonProject\handlers\callback_handler.py", line 47, in callback_message
+    patient = db_manager.find_patient_all_data(callback.from_user.id)[0]
+IndexError: list index out of range
+
+<<ERROR polling>>
+
+Wed May  1 16:35:45 2024
+<<ERROR polling>>
+Traceback (most recent call last):
+  File "C:/Users/AdmiN/Desktop/УПИ/Диплом/TelegramBot/pythonProject/main2.py", line 40, in telebot_polling1
+    bot.polling()
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 1043, in polling
+    self.__threaded_polling(non_stop=non_stop, interval=interval, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 1118, in __threaded_polling
+    raise e
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 1074, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\util.py", line 147, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\util.py", line 90, in run
+    task(*args, **kwargs)
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 6801, in _run_middlewares_and_handler
+    result = handler['function'](message)
+  File "C:/Users/AdmiN/Desktop/УПИ/Диплом/TelegramBot/pythonProject/main2.py", line 34, in callback_message
+    callback_handler.callback_message(callback, bot)
+  File "C:\Users\AdmiN\Desktop\УПИ\Диплом\TelegramBot\pythonProject\handlers\callback_handler.py", line 47, in callback_message
+    patient = db_manager.find_patient_all_data(callback.from_user.id)[0]
+IndexError: list index out of range
+
+<<ERROR polling>>
+
+Wed May  1 16:35:54 2024
+<<ERROR polling>>
+Traceback (most recent call last):
+  File "C:/Users/AdmiN/Desktop/УПИ/Диплом/TelegramBot/pythonProject/main2.py", line 40, in telebot_polling1
+    bot.polling()
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 1043, in polling
+    self.__threaded_polling(non_stop=non_stop, interval=interval, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 1118, in __threaded_polling
+    raise e
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 1074, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\util.py", line 147, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\util.py", line 90, in run
+    task(*args, **kwargs)
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 6801, in _run_middlewares_and_handler
+    result = handler['function'](message)
+  File "C:/Users/AdmiN/Desktop/УПИ/Диплом/TelegramBot/pythonProject/main2.py", line 34, in callback_message
+    callback_handler.callback_message(callback, bot)
+  File "C:\Users\AdmiN\Desktop\УПИ\Диплом\TelegramBot\pythonProject\handlers\callback_handler.py", line 47, in callback_message
+    patient = db_manager.find_patient_all_data(callback.from_user.id)[0]
+IndexError: list index out of range
+
+<<ERROR polling>>
+
+Wed May  1 16:36:04 2024
+<<ERROR polling>>
+Traceback (most recent call last):
+  File "C:/Users/AdmiN/Desktop/УПИ/Диплом/TelegramBot/pythonProject/main2.py", line 40, in telebot_polling1
+    bot.polling()
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 1043, in polling
+    self.__threaded_polling(non_stop=non_stop, interval=interval, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 1118, in __threaded_polling
+    raise e
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 1074, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\util.py", line 147, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\util.py", line 90, in run
+    task(*args, **kwargs)
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 6801, in _run_middlewares_and_handler
+    result = handler['function'](message)
+  File "C:/Users/AdmiN/Desktop/УПИ/Диплом/TelegramBot/pythonProject/main2.py", line 34, in callback_message
+    callback_handler.callback_message(callback, bot)
+  File "C:\Users\AdmiN\Desktop\УПИ\Диплом\TelegramBot\pythonProject\handlers\callback_handler.py", line 47, in callback_message
+    patient = db_manager.find_patient_all_data(callback.from_user.id)[0]
+IndexError: list index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:/Users/AdmiN/Desktop/УПИ/Диплом/TelegramBot/pythonProject/main2.py", line 40, in telebot_polling1
+    bot.polling()
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 1043, in polling
+    self.__threaded_polling(non_stop=non_stop, interval=interval, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 1118, in __threaded_polling
+    raise e
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 1074, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\util.py", line 147, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\util.py", line 90, in run
+    task(*args, **kwargs)
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 6801, in _run_middlewares_and_handler
+    result = handler['function'](message)
+  File "C:/Users/AdmiN/Desktop/УПИ/Диплом/TelegramBot/pythonProject/main2.py", line 34, in callback_message
+    callback_handler.callback_message(callback, bot)
+  File "C:\Users\AdmiN\Desktop\УПИ\Диплом\TelegramBot\pythonProject\handlers\callback_handler.py", line 47, in callback_message
+    patient = db_manager.find_patient_all_data(callback.from_user.id)[0]
+IndexError: list index out of range
+
+<<ERROR polling>>
+
+Wed May  1 16:36:14 2024
+<<ERROR polling>>
+Traceback (most recent call last):
+  File "C:/Users/AdmiN/Desktop/УПИ/Диплом/TelegramBot/pythonProject/main2.py", line 40, in telebot_polling1
+    bot.polling()
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 1043, in polling
+    self.__threaded_polling(non_stop=non_stop, interval=interval, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 1118, in __threaded_polling
+    raise e
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 1074, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\util.py", line 147, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\util.py", line 90, in run
+    task(*args, **kwargs)
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 6801, in _run_middlewares_and_handler
+    result = handler['function'](message)
+  File "C:/Users/AdmiN/Desktop/УПИ/Диплом/TelegramBot/pythonProject/main2.py", line 34, in callback_message
+    callback_handler.callback_message(callback, bot)
+  File "C:\Users\AdmiN\Desktop\УПИ\Диплом\TelegramBot\pythonProject\handlers\callback_handler.py", line 47, in callback_message
+    patient = db_manager.find_patient_all_data(callback.from_user.id)[0]
+IndexError: list index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:/Users/AdmiN/Desktop/УПИ/Диплом/TelegramBot/pythonProject/main2.py", line 40, in telebot_polling1
+    bot.polling()
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 1043, in polling
+    self.__threaded_polling(non_stop=non_stop, interval=interval, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 1118, in __threaded_polling
+    raise e
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 1074, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\util.py", line 147, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\util.py", line 90, in run
+    task(*args, **kwargs)
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 6801, in _run_middlewares_and_handler
+    result = handler['function'](message)
+  File "C:/Users/AdmiN/Desktop/УПИ/Диплом/TelegramBot/pythonProject/main2.py", line 34, in callback_message
+    callback_handler.callback_message(callback, bot)
+  File "C:\Users\AdmiN\Desktop\УПИ\Диплом\TelegramBot\pythonProject\handlers\callback_handler.py", line 47, in callback_message
+    patient = db_manager.find_patient_all_data(callback.from_user.id)[0]
+IndexError: list index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:/Users/AdmiN/Desktop/УПИ/Диплом/TelegramBot/pythonProject/main2.py", line 40, in telebot_polling1
+    bot.polling()
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 1043, in polling
+    self.__threaded_polling(non_stop=non_stop, interval=interval, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 1118, in __threaded_polling
+    raise e
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 1074, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\util.py", line 147, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\util.py", line 90, in run
+    task(*args, **kwargs)
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 6801, in _run_middlewares_and_handler
+    result = handler['function'](message)
+  File "C:/Users/AdmiN/Desktop/УПИ/Диплом/TelegramBot/pythonProject/main2.py", line 34, in callback_message
+    callback_handler.callback_message(callback, bot)
+  File "C:\Users\AdmiN\Desktop\УПИ\Диплом\TelegramBot\pythonProject\handlers\callback_handler.py", line 47, in callback_message
+    patient = db_manager.find_patient_all_data(callback.from_user.id)[0]
+IndexError: list index out of range
+
+<<ERROR polling>>
