@@ -1,21 +1,9 @@
-import calendar
-import datetime
 import time
 import traceback
-
-import telebot
-from telebot import types
-import sqlite3
-
-import libraries.telegramcalendar as telegramcalendar
 
 import constants
 
 from handlers import text_handler, callback_handler, command_handler
-from models import Client
-from markups import reply_keyboard_markups as rm, inline_keyboard_markup as im
-
-import db_manager
 
 bot = constants.BOT
 database2_path = constants.DATABASE_PATH
@@ -27,7 +15,7 @@ def main(message):
 
 @bot.message_handler(content_types=['text'])
 def bot_message(message):
-    message_handler_text.bot_message(message, bot)
+    text_handler.bot_message(message, bot)
 
 @bot.callback_query_handler(func=lambda callback: True)
 def callback_message(callback):

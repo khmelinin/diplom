@@ -9,10 +9,9 @@ import sqlite3
 
 import libraries.telegramcalendar as telegramcalendar
 
-bot = telebot.TeleBot('6937589978:AAH89vmGLSQ2oRrazeLMxQsuYCCKrSqY0yE')
+bot = telebot.TeleBot('')
 database_path = 'data_base/policlinic_tg_bot.db'
 database2_path = 'data_base2/clinic_tg_bot.db'
-admin_tag = "@khmelinin"
 admin_chatid = -1
 # menu = []
 

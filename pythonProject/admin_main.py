@@ -5,9 +5,9 @@ import telebot
 from telebot import types
 import sqlite3
 
-bot = telebot.TeleBot('6594447134:AAEl5yF-IsRu6AiPKlehFZT52P3tCUtoCSI')
-admin_general_password = 'Policlinic2024'
-database_path = 'data_base/policlinic_tg_bot.db'
+bot = telebot.TeleBot('')
+admin_general_password = ''
+database_path = ''
 
 def load_all_sessions_for_admin(admin):
     sessions = []

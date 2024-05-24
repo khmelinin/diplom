@@ -1164,4 +1164,628 @@ Traceback (most recent call last):
     patient = db_manager.find_patient_all_data(callback.from_user.id)[0]
 IndexError: list index out of range
 
+<<ERROR polling>>
+
+Thu May  2 11:38:28 2024
+<<ERROR polling>>
+Traceback (most recent call last):
+  File "C:\Users\AdmiN\Desktop\УПИ\Диплом\diplom\pythonProject\main2.py", line 40, in telebot_polling1
+    bot.polling()
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 1043, in polling
+    self.__threaded_polling(non_stop=non_stop, interval=interval, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 1118, in __threaded_polling
+    raise e
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 1074, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\util.py", line 147, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\util.py", line 90, in run
+    task(*args, **kwargs)
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 6801, in _run_middlewares_and_handler
+    result = handler['function'](message)
+  File "C:\Users\AdmiN\Desktop\УПИ\Диплом\diplom\pythonProject\main2.py", line 30, in bot_message
+    message_handler_text.bot_message(message, bot)
+NameError: name 'message_handler_text' is not defined
+
+<<ERROR polling>>
+
+Thu May  2 11:38:38 2024
+<<ERROR polling>>
+Traceback (most recent call last):
+  File "C:\Users\AdmiN\Desktop\УПИ\Диплом\diplom\pythonProject\main2.py", line 40, in telebot_polling1
+    bot.polling()
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 1043, in polling
+    self.__threaded_polling(non_stop=non_stop, interval=interval, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 1118, in __threaded_polling
+    raise e
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 1074, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\util.py", line 147, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\util.py", line 90, in run
+    task(*args, **kwargs)
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 6801, in _run_middlewares_and_handler
+    result = handler['function'](message)
+  File "C:\Users\AdmiN\Desktop\УПИ\Диплом\diplom\pythonProject\main2.py", line 30, in bot_message
+    message_handler_text.bot_message(message, bot)
+NameError: name 'message_handler_text' is not defined
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\AdmiN\Desktop\УПИ\Диплом\diplom\pythonProject\main2.py", line 40, in telebot_polling1
+    bot.polling()
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 1043, in polling
+    self.__threaded_polling(non_stop=non_stop, interval=interval, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 1118, in __threaded_polling
+    raise e
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 1074, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\util.py", line 147, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\util.py", line 90, in run
+    task(*args, **kwargs)
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 6801, in _run_middlewares_and_handler
+    result = handler['function'](message)
+  File "C:\Users\AdmiN\Desktop\УПИ\Диплом\diplom\pythonProject\main2.py", line 30, in bot_message
+    message_handler_text.bot_message(message, bot)
+NameError: name 'message_handler_text' is not defined
+
+<<ERROR polling>>
+
+Thu May  2 12:10:48 2024
+<<ERROR polling>>
+Traceback (most recent call last):
+  File "C:/Users/AdmiN/Desktop/УПИ/Диплом/diplom/pythonProject/main2.py", line 40, in telebot_polling1
+    bot.polling()
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 1043, in polling
+    self.__threaded_polling(non_stop=non_stop, interval=interval, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 1118, in __threaded_polling
+    raise e
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 1074, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\util.py", line 147, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\util.py", line 90, in run
+    task(*args, **kwargs)
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 6801, in _run_middlewares_and_handler
+    result = handler['function'](message)
+  File "C:/Users/AdmiN/Desktop/УПИ/Диплом/diplom/pythonProject/main2.py", line 34, in callback_message
+    callback_handler.callback_message(callback, bot)
+  File "C:\Users\AdmiN\Desktop\УПИ\Диплом\diplom\pythonProject\handlers\callback_handler.py", line 57, in callback_message
+    age = analyze_patient.analyze_first_event_by_age()
+  File "C:\Users\AdmiN\Desktop\УПИ\Диплом\diplom\pythonProject\analyze_patient.py", line 6, in analyze_first_event_by_age
+    birthday = datetime(Client.tmpClient.birthday)
+TypeError: an integer is required (got type str)
+
+<<ERROR polling>>
+
+Thu May  2 12:11:02 2024
+<<ERROR polling>>
+Traceback (most recent call last):
+  File "C:/Users/AdmiN/Desktop/УПИ/Диплом/diplom/pythonProject/main2.py", line 40, in telebot_polling1
+    bot.polling()
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 1043, in polling
+    self.__threaded_polling(non_stop=non_stop, interval=interval, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 1118, in __threaded_polling
+    raise e
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 1074, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\util.py", line 147, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\util.py", line 90, in run
+    task(*args, **kwargs)
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 6801, in _run_middlewares_and_handler
+    result = handler['function'](message)
+  File "C:/Users/AdmiN/Desktop/УПИ/Диплом/diplom/pythonProject/main2.py", line 34, in callback_message
+    callback_handler.callback_message(callback, bot)
+  File "C:\Users\AdmiN\Desktop\УПИ\Диплом\diplom\pythonProject\handlers\callback_handler.py", line 57, in callback_message
+    age = analyze_patient.analyze_first_event_by_age()
+  File "C:\Users\AdmiN\Desktop\УПИ\Диплом\diplom\pythonProject\analyze_patient.py", line 6, in analyze_first_event_by_age
+    birthday = datetime(Client.tmpClient.birthday)
+TypeError: an integer is required (got type str)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:/Users/AdmiN/Desktop/УПИ/Диплом/diplom/pythonProject/main2.py", line 40, in telebot_polling1
+    bot.polling()
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 1043, in polling
+    self.__threaded_polling(non_stop=non_stop, interval=interval, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 1118, in __threaded_polling
+    raise e
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 1074, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\util.py", line 147, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\util.py", line 90, in run
+    task(*args, **kwargs)
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 6801, in _run_middlewares_and_handler
+    result = handler['function'](message)
+  File "C:/Users/AdmiN/Desktop/УПИ/Диплом/diplom/pythonProject/main2.py", line 34, in callback_message
+    callback_handler.callback_message(callback, bot)
+  File "C:\Users\AdmiN\Desktop\УПИ\Диплом\diplom\pythonProject\handlers\callback_handler.py", line 57, in callback_message
+    age = analyze_patient.analyze_first_event_by_age()
+  File "C:\Users\AdmiN\Desktop\УПИ\Диплом\diplom\pythonProject\analyze_patient.py", line 6, in analyze_first_event_by_age
+    birthday = datetime(Client.tmpClient.birthday)
+TypeError: an integer is required (got type str)
+
+<<ERROR polling>>
+
+Thu May  2 12:12:16 2024
+<<ERROR polling>>
+Traceback (most recent call last):
+  File "C:/Users/AdmiN/Desktop/УПИ/Диплом/diplom/pythonProject/main2.py", line 40, in telebot_polling1
+    bot.polling()
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 1043, in polling
+    self.__threaded_polling(non_stop=non_stop, interval=interval, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 1118, in __threaded_polling
+    raise e
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 1074, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\util.py", line 147, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\util.py", line 90, in run
+    task(*args, **kwargs)
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 6801, in _run_middlewares_and_handler
+    result = handler['function'](message)
+  File "C:/Users/AdmiN/Desktop/УПИ/Диплом/diplom/pythonProject/main2.py", line 34, in callback_message
+    callback_handler.callback_message(callback, bot)
+  File "C:\Users\AdmiN\Desktop\УПИ\Диплом\diplom\pythonProject\handlers\callback_handler.py", line 57, in callback_message
+    age = analyze_patient.analyze_first_event_by_age()
+  File "C:\Users\AdmiN\Desktop\УПИ\Диплом\diplom\pythonProject\analyze_patient.py", line 6, in analyze_first_event_by_age
+    birthday = datetime.date(Client.tmpClient.birthday)
+TypeError: descriptor 'date' for 'datetime.datetime' objects doesn't apply to a 'str' object
+
+<<ERROR polling>>
+
+Thu May  2 12:15:03 2024
+<<ERROR polling>>
+Traceback (most recent call last):
+  File "C:/Users/AdmiN/Desktop/УПИ/Диплом/diplom/pythonProject/main2.py", line 40, in telebot_polling1
+    bot.polling()
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 1043, in polling
+    self.__threaded_polling(non_stop=non_stop, interval=interval, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 1118, in __threaded_polling
+    raise e
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 1074, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\util.py", line 147, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\util.py", line 90, in run
+    task(*args, **kwargs)
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 6801, in _run_middlewares_and_handler
+    result = handler['function'](message)
+  File "C:/Users/AdmiN/Desktop/УПИ/Диплом/diplom/pythonProject/main2.py", line 34, in callback_message
+    callback_handler.callback_message(callback, bot)
+  File "C:\Users\AdmiN\Desktop\УПИ\Диплом\diplom\pythonProject\handlers\callback_handler.py", line 57, in callback_message
+    age = analyze_patient.analyze_first_event_by_age()
+  File "C:\Users\AdmiN\Desktop\УПИ\Диплом\diplom\pythonProject\analyze_patient.py", line 7, in analyze_first_event_by_age
+    birthday = datetime.date(birthday[0], birthday[1], birthday[2])
+TypeError: descriptor 'date' for 'datetime.datetime' objects doesn't apply to a 'str' object
+
+<<ERROR polling>>
+
+Thu May  2 12:21:57 2024
+<<ERROR polling>>
+Traceback (most recent call last):
+  File "C:/Users/AdmiN/Desktop/УПИ/Диплом/diplom/pythonProject/main2.py", line 40, in telebot_polling1
+    bot.polling()
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 1043, in polling
+    self.__threaded_polling(non_stop=non_stop, interval=interval, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 1118, in __threaded_polling
+    raise e
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 1074, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\util.py", line 147, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\util.py", line 90, in run
+    task(*args, **kwargs)
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 6801, in _run_middlewares_and_handler
+    result = handler['function'](message)
+  File "C:/Users/AdmiN/Desktop/УПИ/Диплом/diplom/pythonProject/main2.py", line 34, in callback_message
+    callback_handler.callback_message(callback, bot)
+  File "C:\Users\AdmiN\Desktop\УПИ\Диплом\diplom\pythonProject\handlers\callback_handler.py", line 57, in callback_message
+    age = analyze_patient.analyze_first_event_by_age()
+  File "C:\Users\AdmiN\Desktop\УПИ\Диплом\diplom\pythonProject\analyze_patient.py", line 7, in analyze_first_event_by_age
+    birthday = datetime.date(int(birthday[0]), int(birthday[1]), int(birthday[2]))
+TypeError: descriptor 'date' for 'datetime.datetime' objects doesn't apply to a 'int' object
+
+<<ERROR polling>>
+
+Thu May  2 12:23:32 2024
+<<ERROR polling>>
+Traceback (most recent call last):
+  File "C:/Users/AdmiN/Desktop/УПИ/Диплом/diplom/pythonProject/main2.py", line 40, in telebot_polling1
+    bot.polling()
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 1043, in polling
+    self.__threaded_polling(non_stop=non_stop, interval=interval, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 1118, in __threaded_polling
+    raise e
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 1074, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\util.py", line 147, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\util.py", line 90, in run
+    task(*args, **kwargs)
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 6801, in _run_middlewares_and_handler
+    result = handler['function'](message)
+  File "C:/Users/AdmiN/Desktop/УПИ/Диплом/diplom/pythonProject/main2.py", line 34, in callback_message
+    callback_handler.callback_message(callback, bot)
+  File "C:\Users\AdmiN\Desktop\УПИ\Диплом\diplom\pythonProject\handlers\callback_handler.py", line 57, in callback_message
+    age = analyze_patient.analyze_first_event_by_age()
+  File "C:\Users\AdmiN\Desktop\УПИ\Диплом\diplom\pythonProject\analyze_patient.py", line 10, in analyze_first_event_by_age
+    birthday = datetime.date(by, bm, bd)
+TypeError: descriptor 'date' for 'datetime.datetime' objects doesn't apply to a 'int' object
+
+<<ERROR polling>>
+
+Thu May  2 12:24:34 2024
+<<ERROR polling>>
+Traceback (most recent call last):
+  File "C:/Users/AdmiN/Desktop/УПИ/Диплом/diplom/pythonProject/main2.py", line 40, in telebot_polling1
+    bot.polling()
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 1043, in polling
+    self.__threaded_polling(non_stop=non_stop, interval=interval, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 1118, in __threaded_polling
+    raise e
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 1074, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\util.py", line 147, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\util.py", line 90, in run
+    task(*args, **kwargs)
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 6801, in _run_middlewares_and_handler
+    result = handler['function'](message)
+  File "C:/Users/AdmiN/Desktop/УПИ/Диплом/diplom/pythonProject/main2.py", line 34, in callback_message
+    callback_handler.callback_message(callback, bot)
+  File "C:\Users\AdmiN\Desktop\УПИ\Диплом\diplom\pythonProject\handlers\callback_handler.py", line 57, in callback_message
+    age = analyze_patient.analyze_first_event_by_age()
+  File "C:\Users\AdmiN\Desktop\УПИ\Диплом\diplom\pythonProject\analyze_patient.py", line 10, in analyze_first_event_by_age
+    birthday = datetime.date(by, bm, bd)
+TypeError: descriptor 'date' for 'datetime.datetime' objects doesn't apply to a 'int' object
+
+<<ERROR polling>>
+
+Thu May  2 12:25:00 2024
+<<ERROR polling>>
+Traceback (most recent call last):
+  File "C:/Users/AdmiN/Desktop/УПИ/Диплом/diplom/pythonProject/main2.py", line 40, in telebot_polling1
+    bot.polling()
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 1043, in polling
+    self.__threaded_polling(non_stop=non_stop, interval=interval, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 1118, in __threaded_polling
+    raise e
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 1074, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\util.py", line 147, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\util.py", line 90, in run
+    task(*args, **kwargs)
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 6801, in _run_middlewares_and_handler
+    result = handler['function'](message)
+  File "C:/Users/AdmiN/Desktop/УПИ/Диплом/diplom/pythonProject/main2.py", line 34, in callback_message
+    callback_handler.callback_message(callback, bot)
+  File "C:\Users\AdmiN\Desktop\УПИ\Диплом\diplom\pythonProject\handlers\callback_handler.py", line 57, in callback_message
+    age = analyze_patient.analyze_first_event_by_age()
+  File "C:\Users\AdmiN\Desktop\УПИ\Диплом\diplom\pythonProject\analyze_patient.py", line 10, in analyze_first_event_by_age
+    birthday = datetime.date(by, bm, bd)
+TypeError: descriptor 'date' for 'datetime.datetime' objects doesn't apply to a 'int' object
+
+<<ERROR polling>>
+
+Thu May  2 12:25:10 2024
+<<ERROR polling>>
+Traceback (most recent call last):
+  File "C:/Users/AdmiN/Desktop/УПИ/Диплом/diplom/pythonProject/main2.py", line 40, in telebot_polling1
+    bot.polling()
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 1043, in polling
+    self.__threaded_polling(non_stop=non_stop, interval=interval, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 1118, in __threaded_polling
+    raise e
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 1074, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\util.py", line 147, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\util.py", line 90, in run
+    task(*args, **kwargs)
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 6801, in _run_middlewares_and_handler
+    result = handler['function'](message)
+  File "C:/Users/AdmiN/Desktop/УПИ/Диплом/diplom/pythonProject/main2.py", line 34, in callback_message
+    callback_handler.callback_message(callback, bot)
+  File "C:\Users\AdmiN\Desktop\УПИ\Диплом\diplom\pythonProject\handlers\callback_handler.py", line 57, in callback_message
+    age = analyze_patient.analyze_first_event_by_age()
+  File "C:\Users\AdmiN\Desktop\УПИ\Диплом\diplom\pythonProject\analyze_patient.py", line 10, in analyze_first_event_by_age
+    birthday = datetime.date(by, bm, bd)
+TypeError: descriptor 'date' for 'datetime.datetime' objects doesn't apply to a 'int' object
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:/Users/AdmiN/Desktop/УПИ/Диплом/diplom/pythonProject/main2.py", line 40, in telebot_polling1
+    bot.polling()
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 1043, in polling
+    self.__threaded_polling(non_stop=non_stop, interval=interval, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 1118, in __threaded_polling
+    raise e
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 1074, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\util.py", line 147, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\util.py", line 90, in run
+    task(*args, **kwargs)
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 6801, in _run_middlewares_and_handler
+    result = handler['function'](message)
+  File "C:/Users/AdmiN/Desktop/УПИ/Диплом/diplom/pythonProject/main2.py", line 34, in callback_message
+    callback_handler.callback_message(callback, bot)
+  File "C:\Users\AdmiN\Desktop\УПИ\Диплом\diplom\pythonProject\handlers\callback_handler.py", line 57, in callback_message
+    age = analyze_patient.analyze_first_event_by_age()
+  File "C:\Users\AdmiN\Desktop\УПИ\Диплом\diplom\pythonProject\analyze_patient.py", line 10, in analyze_first_event_by_age
+    birthday = datetime.date(by, bm, bd)
+TypeError: descriptor 'date' for 'datetime.datetime' objects doesn't apply to a 'int' object
+
+<<ERROR polling>>
+
+Thu May  2 12:27:34 2024
+<<ERROR polling>>
+Traceback (most recent call last):
+  File "C:/Users/AdmiN/Desktop/УПИ/Диплом/diplom/pythonProject/main2.py", line 40, in telebot_polling1
+    bot.polling()
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 1043, in polling
+    self.__threaded_polling(non_stop=non_stop, interval=interval, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 1118, in __threaded_polling
+    raise e
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 1074, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\util.py", line 147, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\util.py", line 90, in run
+    task(*args, **kwargs)
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 6801, in _run_middlewares_and_handler
+    result = handler['function'](message)
+  File "C:/Users/AdmiN/Desktop/УПИ/Диплом/diplom/pythonProject/main2.py", line 34, in callback_message
+    callback_handler.callback_message(callback, bot)
+  File "C:\Users\AdmiN\Desktop\УПИ\Диплом\diplom\pythonProject\handlers\callback_handler.py", line 57, in callback_message
+    age = analyze_patient.analyze_first_event_by_age()
+  File "C:\Users\AdmiN\Desktop\УПИ\Диплом\diplom\pythonProject\analyze_patient.py", line 10, in analyze_first_event_by_age
+    birthday = datetime.date().today()
+TypeError: unbound method datetime.date() needs an argument
+
+<<ERROR polling>>
+
+Thu May  2 12:27:44 2024
+<<ERROR polling>>
+Traceback (most recent call last):
+  File "C:/Users/AdmiN/Desktop/УПИ/Диплом/diplom/pythonProject/main2.py", line 40, in telebot_polling1
+    bot.polling()
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 1043, in polling
+    self.__threaded_polling(non_stop=non_stop, interval=interval, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 1118, in __threaded_polling
+    raise e
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 1074, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\util.py", line 147, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\util.py", line 90, in run
+    task(*args, **kwargs)
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 6801, in _run_middlewares_and_handler
+    result = handler['function'](message)
+  File "C:/Users/AdmiN/Desktop/УПИ/Диплом/diplom/pythonProject/main2.py", line 34, in callback_message
+    callback_handler.callback_message(callback, bot)
+  File "C:\Users\AdmiN\Desktop\УПИ\Диплом\diplom\pythonProject\handlers\callback_handler.py", line 57, in callback_message
+    age = analyze_patient.analyze_first_event_by_age()
+  File "C:\Users\AdmiN\Desktop\УПИ\Диплом\diplom\pythonProject\analyze_patient.py", line 10, in analyze_first_event_by_age
+    birthday = datetime.date().today()
+TypeError: unbound method datetime.date() needs an argument
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:/Users/AdmiN/Desktop/УПИ/Диплом/diplom/pythonProject/main2.py", line 40, in telebot_polling1
+    bot.polling()
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 1043, in polling
+    self.__threaded_polling(non_stop=non_stop, interval=interval, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 1118, in __threaded_polling
+    raise e
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 1074, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\util.py", line 147, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\util.py", line 90, in run
+    task(*args, **kwargs)
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 6801, in _run_middlewares_and_handler
+    result = handler['function'](message)
+  File "C:/Users/AdmiN/Desktop/УПИ/Диплом/diplom/pythonProject/main2.py", line 34, in callback_message
+    callback_handler.callback_message(callback, bot)
+  File "C:\Users\AdmiN\Desktop\УПИ\Диплом\diplom\pythonProject\handlers\callback_handler.py", line 57, in callback_message
+    age = analyze_patient.analyze_first_event_by_age()
+  File "C:\Users\AdmiN\Desktop\УПИ\Диплом\diplom\pythonProject\analyze_patient.py", line 10, in analyze_first_event_by_age
+    birthday = datetime.date().today()
+TypeError: unbound method datetime.date() needs an argument
+
+<<ERROR polling>>
+
+Thu May  2 12:27:54 2024
+<<ERROR polling>>
+Traceback (most recent call last):
+  File "C:/Users/AdmiN/Desktop/УПИ/Диплом/diplom/pythonProject/main2.py", line 40, in telebot_polling1
+    bot.polling()
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 1043, in polling
+    self.__threaded_polling(non_stop=non_stop, interval=interval, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 1118, in __threaded_polling
+    raise e
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 1074, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\util.py", line 147, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\util.py", line 90, in run
+    task(*args, **kwargs)
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 6801, in _run_middlewares_and_handler
+    result = handler['function'](message)
+  File "C:/Users/AdmiN/Desktop/УПИ/Диплом/diplom/pythonProject/main2.py", line 34, in callback_message
+    callback_handler.callback_message(callback, bot)
+  File "C:\Users\AdmiN\Desktop\УПИ\Диплом\diplom\pythonProject\handlers\callback_handler.py", line 57, in callback_message
+    age = analyze_patient.analyze_first_event_by_age()
+  File "C:\Users\AdmiN\Desktop\УПИ\Диплом\diplom\pythonProject\analyze_patient.py", line 10, in analyze_first_event_by_age
+    birthday = datetime.date().today()
+TypeError: unbound method datetime.date() needs an argument
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:/Users/AdmiN/Desktop/УПИ/Диплом/diplom/pythonProject/main2.py", line 40, in telebot_polling1
+    bot.polling()
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 1043, in polling
+    self.__threaded_polling(non_stop=non_stop, interval=interval, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 1118, in __threaded_polling
+    raise e
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 1074, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\util.py", line 147, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\util.py", line 90, in run
+    task(*args, **kwargs)
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 6801, in _run_middlewares_and_handler
+    result = handler['function'](message)
+  File "C:/Users/AdmiN/Desktop/УПИ/Диплом/diplom/pythonProject/main2.py", line 34, in callback_message
+    callback_handler.callback_message(callback, bot)
+  File "C:\Users\AdmiN\Desktop\УПИ\Диплом\diplom\pythonProject\handlers\callback_handler.py", line 57, in callback_message
+    age = analyze_patient.analyze_first_event_by_age()
+  File "C:\Users\AdmiN\Desktop\УПИ\Диплом\diplom\pythonProject\analyze_patient.py", line 10, in analyze_first_event_by_age
+    birthday = datetime.date().today()
+TypeError: unbound method datetime.date() needs an argument
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:/Users/AdmiN/Desktop/УПИ/Диплом/diplom/pythonProject/main2.py", line 40, in telebot_polling1
+    bot.polling()
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 1043, in polling
+    self.__threaded_polling(non_stop=non_stop, interval=interval, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 1118, in __threaded_polling
+    raise e
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 1074, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\util.py", line 147, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\util.py", line 90, in run
+    task(*args, **kwargs)
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 6801, in _run_middlewares_and_handler
+    result = handler['function'](message)
+  File "C:/Users/AdmiN/Desktop/УПИ/Диплом/diplom/pythonProject/main2.py", line 34, in callback_message
+    callback_handler.callback_message(callback, bot)
+  File "C:\Users\AdmiN\Desktop\УПИ\Диплом\diplom\pythonProject\handlers\callback_handler.py", line 57, in callback_message
+    age = analyze_patient.analyze_first_event_by_age()
+  File "C:\Users\AdmiN\Desktop\УПИ\Диплом\diplom\pythonProject\analyze_patient.py", line 10, in analyze_first_event_by_age
+    birthday = datetime.date().today()
+TypeError: unbound method datetime.date() needs an argument
+
+<<ERROR polling>>
+
+Thu May  2 12:28:20 2024
+<<ERROR polling>>
+Traceback (most recent call last):
+  File "C:/Users/AdmiN/Desktop/УПИ/Диплом/diplom/pythonProject/main2.py", line 40, in telebot_polling1
+    bot.polling()
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 1043, in polling
+    self.__threaded_polling(non_stop=non_stop, interval=interval, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 1118, in __threaded_polling
+    raise e
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 1074, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\util.py", line 147, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\util.py", line 90, in run
+    task(*args, **kwargs)
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 6801, in _run_middlewares_and_handler
+    result = handler['function'](message)
+  File "C:/Users/AdmiN/Desktop/УПИ/Диплом/diplom/pythonProject/main2.py", line 34, in callback_message
+    callback_handler.callback_message(callback, bot)
+  File "C:\Users\AdmiN\Desktop\УПИ\Диплом\diplom\pythonProject\handlers\callback_handler.py", line 57, in callback_message
+    age = analyze_patient.analyze_first_event_by_age()
+  File "C:\Users\AdmiN\Desktop\УПИ\Диплом\diplom\pythonProject\analyze_patient.py", line 10, in analyze_first_event_by_age
+    birthday = datetime.date().today()
+TypeError: unbound method datetime.date() needs an argument
+
+<<ERROR polling>>
+
+Thu May 23 12:30:31 2024
+<<ERROR polling>>
+Traceback (most recent call last):
+  File "C:\Users\AdmiN\Desktop\УПИ\Диплом\diplom\pythonProject\main2.py", line 28, in telebot_polling1
+    bot.polling()
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 1043, in polling
+    self.__threaded_polling(non_stop=non_stop, interval=interval, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 1118, in __threaded_polling
+    raise e
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 1074, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\util.py", line 147, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\util.py", line 90, in run
+    task(*args, **kwargs)
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 6801, in _run_middlewares_and_handler
+    result = handler['function'](message)
+  File "C:\Users\AdmiN\Desktop\УПИ\Диплом\diplom\pythonProject\main2.py", line 22, in callback_message
+    callback_handler.callback_message(callback, bot)
+  File "C:\Users\AdmiN\Desktop\УПИ\Диплом\diplom\pythonProject\handlers\callback_handler.py", line 50, in callback_message
+    analyze_patient.analyze_first_event_by_age()
+  File "C:\Users\AdmiN\Desktop\УПИ\Диплом\diplom\pythonProject\analyze_patient.py", line 11, in analyze_first_event_by_age
+    firstEvent = Event()
+TypeError: 'module' object is not callable
+
+<<ERROR polling>>
+
+Thu May 23 13:34:00 2024
+<<ERROR polling>>
+Traceback (most recent call last):
+  File "C:\Users\AdmiN\Desktop\УПИ\Диплом\diplom\pythonProject\main2.py", line 28, in telebot_polling1
+    bot.polling()
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 1043, in polling
+    self.__threaded_polling(non_stop=non_stop, interval=interval, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 1118, in __threaded_polling
+    raise e
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 1074, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\util.py", line 147, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\util.py", line 90, in run
+    task(*args, **kwargs)
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 6801, in _run_middlewares_and_handler
+    result = handler['function'](message)
+  File "C:\Users\AdmiN\Desktop\УПИ\Диплом\diplom\pythonProject\main2.py", line 22, in callback_message
+    callback_handler.callback_message(callback, bot)
+  File "C:\Users\AdmiN\Desktop\УПИ\Диплом\diplom\pythonProject\handlers\callback_handler.py", line 69, in callback_message
+    event = db_manager.find_evnt_by_id(1)
+  File "C:\Users\AdmiN\Desktop\УПИ\Диплом\diplom\pythonProject\data_base2\db_manager.py", line 90, in find_evnt_by_id
+    return s[0]
+IndexError: list index out of range
+
+<<ERROR polling>>
+
+Fri May 24 13:25:20 2024
+<<ERROR polling>>
+Traceback (most recent call last):
+  File "C:/Users/AdmiN/Desktop/УПИ/Диплом/diplom/pythonProject/main2.py", line 28, in telebot_polling1
+    bot.polling()
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 1043, in polling
+    self.__threaded_polling(non_stop=non_stop, interval=interval, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 1118, in __threaded_polling
+    raise e
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 1074, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\util.py", line 147, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\util.py", line 90, in run
+    task(*args, **kwargs)
+  File "C:\Users\AdmiN\Desktop\Python\lib\site-packages\telebot\__init__.py", line 6801, in _run_middlewares_and_handler
+    result = handler['function'](message)
+  File "C:/Users/AdmiN/Desktop/УПИ/Диплом/diplom/pythonProject/main2.py", line 22, in callback_message
+    callback_handler.callback_message(callback, bot)
+  File "C:\Users\AdmiN\Desktop\УПИ\Диплом\diplom\pythonProject\handlers\callback_handler.py", line 69, in callback_message
+    event = db_manager.find_evnt_by_id(1)
+  File "C:\Users\AdmiN\Desktop\УПИ\Диплом\diplom\pythonProject\data_base2\db_manager.py", line 90, in find_evnt_by_id
+    return s[0]
+IndexError: list index out of range
+
 <<ERROR polling>>

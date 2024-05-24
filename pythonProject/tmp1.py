@@ -1,7 +1,7 @@
 import pyodbc
 from datetime import datetime
 
-connectionString = (r'Driver={SQL Server};Server=DESKTOP-KB73HD6;Database=aurora1;Trusted_Connection=yes;')
+connectionString = (r'')
 connection = pyodbc.connect(connectionString)
 dbCursor = connection.cursor()
 
